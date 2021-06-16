@@ -1,4 +1,4 @@
-require('../../api/st_graphics')
+require('/sharetec/api/st_graphics')
 
 function draw()
     while true do

@@ -9,3 +9,8 @@ function st_graphics:writeCenter(text)
     term.setCursorPos(math.round((x / 2) - (#text / 2), y2))
     write(text..'\n')
 end
+
+function st_graphics:clear()
+    term.clear()
+    term.setCursorPos(1,1)
+end
