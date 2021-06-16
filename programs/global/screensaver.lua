@@ -1,4 +1,4 @@
-os.loadAPI('/sharetec/api/st_graphics')
+require('api.st_graphics')
 
 function draw()
     while true do
