@@ -5,5 +5,5 @@ function writeCenter(text)
     local x2, y2 = term.getCursorPos()
 
     term.setCursorPos(math.round((x / 2) - (#text / 2), y2))
-    write(text)
+    write(text..'\n')
 end

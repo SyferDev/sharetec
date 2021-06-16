@@ -1,4 +1,4 @@
-os.loadAPI('../api/st_graphics')
+os.loadAPI('../../api/st_graphics')
 
 function draw()
     while true do
