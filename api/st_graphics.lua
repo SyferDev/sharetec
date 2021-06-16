@@ -1,10 +1,7 @@
 -- ShareTec custom graphics library
 
-os.loadAPI('math')
 
-st_graphics = {}
-
-function st_graphics:writeCenter(text)
+function writeCenter(text)
     local x, y = term.getSize()
     local x2, y2 = term.getCursorPos()
 
@@ -12,7 +9,7 @@ function st_graphics:writeCenter(text)
     write(text..'\n')
 end
 
-function st_graphics:clear()
+function clear()
     term.clear()
     term.setCursorPos(1,1)
 end
