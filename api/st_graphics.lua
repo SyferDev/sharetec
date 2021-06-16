@@ -1,5 +1,7 @@
 -- ShareTec custom graphics library
 
+os.loadAPI('math')
+
 st_graphics = {}
 
 function st_graphics:writeCenter(text)
