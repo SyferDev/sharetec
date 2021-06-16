@@ -1,6 +1,8 @@
 -- ShareTec custom graphics library
 
-function writeCenter(text)
+st_graphics = {}
+
+function st_graphics:writeCenter(text)
     local x, y = term.getSize()
     local x2, y2 = term.getCursorPos()
 

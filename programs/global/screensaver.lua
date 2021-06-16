@@ -1,4 +1,4 @@
-os.loadAPI('../../api/st_graphics')
+require('../../api/st_graphics')
 
 function draw()
     while true do
@@ -6,8 +6,8 @@ function draw()
         os.pullEvent('timer')
         term.clear()
 
-        writeCenter('Current time:')
-        writeCenter(textutils.formatTime(os.time(), false))
+        st_graphics:writeCenter('Current time:')
+        st_graphics:writeCenter(textutils.formatTime(os.time(), false))
     end
 end
 
